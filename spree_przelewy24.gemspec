@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_przelewy24'
-  s.version     = '0.1.3'
+  s.name        = 'spree_p24'
+  s.version     = '0.1.0'
   s.summary     = 'Przelewy24 payment system for Spree'
   #s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 1.8.7'
 
   s.author            = 'Grzegorz Brzezinka'
   s.email             = 'info@matfiz.com.pl'
-  s.homepage          = 'https://github.com/matfiz/spree_przelewy24'
+  s.homepage          = 'https://github.com/micsmi2959/spree_p24'
   # s.rubyforge_project = 'actionmailer'
 
   s.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*']

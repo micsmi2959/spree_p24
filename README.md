@@ -1,7 +1,7 @@
-SpreePrzelewy24
+SpreeP24
 ====================
 
-This is fork of matfiz/spree_przelewy24
+This is fork of matfiz/spree_p24
 Przelewy24 payment system for Spree (>= 1.0)
 
 Install
@@ -9,7 +9,7 @@ Install
 
 Add to your Gemfile:
 
-    gem 'spree_przelewy24', :git => 'git://github.com/btolarz/spree_przelewy24.git'
+    gem 'spree_p24', :git => 'git://github.com/micsmi2959/spree_p24.git'
 
 and run
 

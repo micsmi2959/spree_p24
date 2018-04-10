@@ -1,12 +1,12 @@
-module SpreePrzelewy24
+module SpreeP24
   class Engine < Rails::Engine
-    
-    engine_name 'spree_przelewy24'
+
+    engine_name 'spree_p24'
 
     config.autoload_paths += %W(#{config.root}/lib)
-    
+
     initializer "spree.gateway.payment_methods", :after => "spree.register.payment_methods" do |app|
-      app.config.spree.payment_methods << Spree::PaymentMethod::Przelewy24
+      app.config.spree.payment_methods << Spree::PaymentMethod::P24
     end
 
     config.to_prepare do
