@@ -1,4 +1,4 @@
 module Spree
-  class PaymentMethod::Przelewy24 < PaymentMethod
+  class PaymentMethod::P24 < PaymentMethod
   end
 end
