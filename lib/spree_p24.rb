@@ -64,9 +64,9 @@ module SpreeP24
 
   def self.test_connection_url
     if @@mode == :production
-      'https://secure.przelewy24.pl/trnDirect'
+      'https://secure.przelewy24.pl/testConnection'
     else
-      'https://sandbox.przelewy24.pl/trnDirect'
+      'https://sandbox.przelewy24.pl/testConnection'
     end
   end
 
