@@ -1,4 +1,4 @@
-class Przelewy24Payment::InstallGenerator < Rails::Generators::Base
+class SpreeP24::InstallGenerator < Rails::Generators::Base
   source_root File.expand_path('../templates', __FILE__)
 
   def add_config
