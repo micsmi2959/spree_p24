@@ -12,7 +12,8 @@ namespace :spree_p24 do
     con.use_ssl = true
     con.verify_mode = OpenSSL::SSL::VERIFY_NONE
     response = con.start {|http| http.request(req)}
-    puts SpreeP24.parse_response response.body
+    #puts SpreeP24.parse_response response.body
+    puts response.body
   end
 
 end
