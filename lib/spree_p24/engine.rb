@@ -5,9 +5,10 @@ module SpreeP24
 
     config.autoload_paths += %W(#{config.root}/lib)
 
-    initializer "spree.gateway.payment_methods", :after => "spree.register.payment_methods" do |app|
-      app.config.spree.payment_methods << Spree::PaymentMethod::P24
-    end
+    #initializer "spree.gateway.payment_methods", :after => "spree.register.payment_methods" do |app|
+    app.config.spree.payment_methods << Spree::PaymentMethod::P24
+    puts 'P24 initialized'
+    #end
 
     config.to_prepare do
       #loads application's model / class decorators
