@@ -6,5 +6,9 @@ module Spree
     preference :crc_key, :string
     preference :test_mode, :boolean, :default => false
 
+    def payment_profiles_supported?
+      false
+    end
+
   end
 end
